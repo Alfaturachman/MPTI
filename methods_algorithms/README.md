@@ -12,7 +12,7 @@ python "01_critical_chain_buffer.py"
 
 ## Daftar file
 
-### A.1 & B.1 — Metode Manajemen Proyek
+### A.1 & B.1 : Metode Manajemen Proyek
 | File | Metode |
 |---|---|
 | `01_critical_chain_buffer.py` | Critical Chain Buffer (strategi 2+1 bulan) |
@@ -32,7 +32,7 @@ python "01_critical_chain_buffer.py"
 | `23_definition_of_done.py` | Definition of Done |
 | `24_rpo_rto.py` | RPO / RTO backup & recovery |
 
-### A.2 — Algoritma Bisnis/Sistem
+### A.2 : Algoritma Bisnis/Sistem
 | File | Algoritma |
 |---|---|
 | `09_anti_collision_scheduling.py` | Anti-collision reservasi + buffer 2 jam |
@@ -44,7 +44,7 @@ python "01_critical_chain_buffer.py"
 | `15_total_loss_compensation.py` | Formula ganti rugi total loss |
 | `16_soft_delete_immutable.py` | Immutable data & soft-delete |
 
-### B.2 — Kandidat Algoritma Sistem
+### B.2 : Kandidat Algoritma Sistem
 | File | Algoritma |
 |---|---|
 | `25_fleet_load_balancing.py` | Fleet load-balancing (greedy) |

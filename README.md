@@ -1,4 +1,4 @@
-# Manajemen Proyek Teknologi Informasi — Rancang Bangun Sistem Informasi Manajemen Rental iPhone (NORIZ / NOREPHONE)
+# Manajemen Proyek Teknologi Informasi : Rancang Bangun Sistem Informasi Manajemen Rental iPhone (NORIZ / NOREPHONE)
 
 Repositori tugas **Mata Kuliah MPTI** dengan peran **Project Manager (PM)**.
 Proyek: Sistem manajemen rental iPhone selama **12 minggu**
@@ -22,7 +22,7 @@ dengan anggaran **Rp 120.000.000,-** (Margin PM 40% → profit **Rp 48.000.000,-
 - **Waktu:** 12 minggu → Strategi **2 + 1 bulan (Critical Chain Buffer)**:
   8 minggu target internal + 4 minggu buffer PM (UAT, bugfix, training, Go-Live)
 - **Tim (7 orang):** PM, 2 Backend (Senior & Junior), 2 Frontend (Senior & Junior),
-  UI/UX Designer, QA Tester — skema gaji referensi UMK Semarang (Rp 4–6 juta/bulan)
+  UI/UX Designer, QA Tester : skema gaji referensi UMK Semarang (Rp 4–6 juta/bulan)
 - **Anggaran:**
   - Nilai kontrak: Rp 120.000.000,-
   - Biaya SDM: Rp 63.000.000,- (2 bulan aktif + bonus on-time)

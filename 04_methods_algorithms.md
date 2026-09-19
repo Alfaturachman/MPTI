@@ -1,4 +1,4 @@
-# METODE & ALGORITMA — PROYEK SISTEM INFORMASI MANAJEMEN RENTAL IPHONE (NORIZ)
+# METODE & ALGORITMA : PROYEK SISTEM INFORMASI MANAJEMEN RENTAL IPHONE (NORIZ)
 
 Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang digunakan dalam proyek NORIZ, beserta penjelasan fungsinya.
 
@@ -14,7 +14,7 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 
 **Triple Constraints**
 - Deskripsi: Keseimbangan *Scope – Time – Cost* (ruang lingkup, waktu 12 minggu, biaya Rp 75 juta).
-- Fungsi: Menjadi kerangka keputusan utama PM — setiap perubahan ruang lingkup harus diimbangi penyesuaian waktu/biaya.
+- Fungsi: Menjadi kerangka keputusan utama PM : setiap perubahan ruang lingkup harus diimbangi penyesuaian waktu/biaya.
 
 **Lean Agile Team + Sprint**
 - Deskripsi: Tim ramping 4 orang, kerja dalam 3 sprint (M2–M8) dengan *Daily Standup* 15 menit.
@@ -37,7 +37,7 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 - Fungsi: Menjaga ruang lingkup proyek tetap sesuai kontrak sehingga waktu dan biaya tidak membengkak.
 
 **RBAC (Role-Based Access Control)**
-- Deskripsi: 3 jenjang akses — Petugas Konter/Kasir, Manajer Operasional, Pemilik/Owner.
+- Deskripsi: 3 jenjang akses : Petugas Konter/Kasir, Manajer Operasional, Pemilik/Owner.
 - Fungsi: Menjamin keamanan data dan memisahkan wewenang lihat vs kelola laporan sesuai peran pengguna.
 
 ### A.2 Algoritma Bisnis / Sistem
@@ -85,7 +85,7 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 - Fungsi: Menemukan jalur kritis (rangkaian aktivitas terpanjang) sehingga PM tahu aktivitas mana yang tidak boleh terlambat agar tanggal Go-Live aman.
 
 **PERT**
-- Deskripsi: Estimasi 3 titik — *optimistic*, *most likely*, *pessimistic* per aktivitas.
+- Deskripsi: Estimasi 3 titik : *optimistic*, *most likely*, *pessimistic* per aktivitas.
 - Fungsi: Menghasilkan estimasi durasi yang lebih realistis dengan mempertimbangkan ketidakpastian, cocok untuk mengisi detail tiap fase.
 
 **EVM (Earned Value Management)**
@@ -93,7 +93,7 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 - Fungsi: Membandingkan rencana vs realisasi waktu & biaya sehingga PM tahu posisi proyek (*ahead/behind schedule* dan *over/under budget*).
 
 **MoSCoW Prioritization**
-- Deskripsi: Kategorisasi fitur — *Must–Should–Could–Won't*.
+- Deskripsi: Kategorisasi fitur : *Must–Should–Could–Won't*.
 - Fungsi: Alat kontrol ruang lingkup; memisahkan spesifikasi wajib kontrak dari fitur "nice to have" yang bisa dialihkan ke Fase 2.
 
 **Buffer Fever Chart**
@@ -110,7 +110,7 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 
 **RPO / RTO**
 - Deskripsi: Target *Recovery Point Objective* & *Recovery Time Objective* untuk backup database.
-- Fungsi: Mendefinisikan seberapa cepat sistem pulih (RTO) dan seberapa banyak data yang boleh hilang (RPO) saat disaster — melengkapi konfigurasi auto-backup harian.
+- Fungsi: Mendefinisikan seberapa cepat sistem pulih (RTO) dan seberapa banyak data yang boleh hilang (RPO) saat disaster : melengkapi konfigurasi auto-backup harian.
 
 ### B.2 Sisi Algoritma Sistem (Sesuai Konteks Rental)
 
@@ -119,15 +119,15 @@ Dokumen pemetaan metode manajemen proyek dan algoritma bisnis/sistem yang diguna
 - Fungsi: Meratakan beban pemakaian armada sehingga keausan & degradasi baterai antar unit merata dan umur armada lebih panjang.
 
 **Risk Scoring Penyewa**
-- Deskripsi: Skor berbobot — kategori penyewa, riwayat telat, sisa denda belum lunas, domisili, riwayat blacklist.
-- Fungsi: Landasan keputusan otomatis: wajib/tidaknya deposit finansial dan ambang batas *blacklist* — mewujudkan kalimat "sistem analisis risiko" pada dokumen bisnis.
+- Deskripsi: Skor berbobot : kategori penyewa, riwayat telat, sisa denda belum lunas, domisili, riwayat blacklist.
+- Fungsi: Landasan keputusan otomatis: wajib/tidaknya deposit finansial dan ambang batas *blacklist* : mewujudkan kalimat "sistem analisis risiko" pada dokumen bisnis.
 
 **Peak / Surge Pricing**
 - Deskripsi: Multiplikator tarif pada jam/akhir pekan atau event ramai.
 - Fungsi: Mengoptimalkan pendapatan pada periode permintaan tinggi dan mengarahkan permintaan ke jam longgar.
 
 **Scheduler / Cron Job**
-- Deskripsi: Proses berjalan otomatis terjadwal — deteksi tagihan denda overtime dan auto-cancel invoice lewat 60 menit.
+- Deskripsi: Proses berjalan otomatis terjadwal : deteksi tagihan denda overtime dan auto-cancel invoice lewat 60 menit.
 - Fungsi: Menghilangkan ketergantungan pada tindakan manual petugas; penagihan & pembatalan berjalan tepat waktu 24/7.
 
 **State Machine Formal (dengan guard)**

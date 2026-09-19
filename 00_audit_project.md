@@ -17,13 +17,13 @@ Rp 120.000.000,-
 
 **Deskripsi Tim Developer**
 Tim **Lean Agile Team** (tim ramping berkemampuan tinggi) berjumlah 7 orang (termasuk PM), dengan skema gaji mengacu pada kisaran referensi UMK Semarang (Rp 4.000.000 – Rp 6.000.000/bln):
-* **Project Manager (PM)** — Manajemen kontrak, ruang lingkup, ekspektasi klien, kontrol alur kerja harian (Daily Standup), mitigasi risiko, pengendalian timeline dan termin pembayaran.
-* **Senior Backend Developer (1 orang, Rp 6 jt/bln)** — Skema database, RESTful API, business logic engine (kalkulator denda, anti-collision reservasi, validasi IMEI, modul data wiping).
-* **Backend Developer (1 orang, Rp 4 jt/bln)** — Endpoint CRUD, build automation tools (scheduler denda, auto-cancel invoice), review kode, dokumentasi API.
-* **Senior Frontend Developer (1 orang, Rp 6 jt/bln)** — Struktur aplikasi web responsif, modul kasir POS & kamera scan, pengawal integrasi API.
-* **Frontend Developer (1 orang, Rp 4 jt/bln)** — Halaman UI, integrasi API reservasi/dashboard, optimasi caching & responsivitas.
-* **UI/UX Designer (1 orang, Rp 4,5 jt/bln)** — Riset alur pengguna, wireframe & prototipe Figma, Design System, template Kontrak & BAST.
-* **QA Tester (1 orang, Rp 4 jt/bln)** — Master Test Plan, test case, uji fungsional & beban, regression testing, validasi anti-fraud, Berita Acara UAT.
+* **Project Manager (PM)** : Manajemen kontrak, ruang lingkup, ekspektasi klien, kontrol alur kerja harian (Daily Standup), mitigasi risiko, pengendalian timeline dan termin pembayaran.
+* **Senior Backend Developer (1 orang, Rp 6 jt/bln)** : Skema database, RESTful API, business logic engine (kalkulator denda, anti-collision reservasi, validasi IMEI, modul data wiping).
+* **Backend Developer (1 orang, Rp 4 jt/bln)** : Endpoint CRUD, build automation tools (scheduler denda, auto-cancel invoice), review kode, dokumentasi API.
+* **Senior Frontend Developer (1 orang, Rp 6 jt/bln)** : Struktur aplikasi web responsif, modul kasir POS & kamera scan, pengawal integrasi API.
+* **Frontend Developer (1 orang, Rp 4 jt/bln)** : Halaman UI, integrasi API reservasi/dashboard, optimasi caching & responsivitas.
+* **UI/UX Designer (1 orang, Rp 4,5 jt/bln)** : Riset alur pengguna, wireframe & prototipe Figma, Design System, template Kontrak & BAST.
+* **QA Tester (1 orang, Rp 4 jt/bln)** : Master Test Plan, test case, uji fungsional & beban, regression testing, validasi anti-fraud, Berita Acara UAT.
 
 **Total Gaji/Upah Developer**
 Rp 63.000.000,- (2 bulan kerja aktif + bonus on-time Rp 1.000.000/org):
