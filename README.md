@@ -8,7 +8,7 @@ dengan anggaran **Rp 120.000.000,-** (Margin PM 40% → profit **Rp 48.000.000,-
 
 | File | Isi |
 |---|---|
-| `00_audit_project.md` | Form tugas: ringkasan proyek, anggaran, tim, tabel pekerjaan & Gantt chart |
+| `00_task_mpti.md` | Form tugas: ringkasan proyek, anggaran, tim, tabel pekerjaan & Gantt chart |
 | `01_doc_business_rules.md` | Spesifikasi aturan & proses bisnis NORIZ (3 pilar modul) |
 | `02_human-resource-information-system.md` | Perencanaan SDM, anggaran, jadwal (tim 7 orang) & analisis profit PM |
 | `03_system_features.md` | Fitur sistem |
